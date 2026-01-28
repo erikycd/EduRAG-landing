@@ -24,7 +24,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(10, 15, 40, 0.65);
+  background: rgba(10, 15, 40, 0.55);
 }
 
 .hero-content {
@@ -101,7 +101,8 @@ body {
 }
 
 .section.light {
-  background: #dbccaf;
+  /*background: #dcd4c5;*/
+  background: linear-gradient(0deg, #1f376e, #ffffff);
 }
 
 .section h2 {
@@ -148,7 +149,7 @@ body {
 }
 
 .card p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: center;
 }
 
