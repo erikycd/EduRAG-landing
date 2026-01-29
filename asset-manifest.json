@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/EduRAG-landing/static/css/main.bd4201e2.css",
+    "main.js": "/EduRAG-landing/static/js/main.59cfa207.js",
+    "static/media/alojamiento.jpg": "/EduRAG-landing/static/media/alojamiento.a7d9b9e0991fdefd17ba.jpg",
+    "static/media/indexacion2.jpg": "/EduRAG-landing/static/media/indexacion2.9ef74f94177e7757cd28.jpg",
+    "static/media/llm.jpg": "/EduRAG-landing/static/media/llm.65ec59f8381dd215a5aa.jpg",
+    "static/media/UNAM-logo.png": "/EduRAG-landing/static/media/UNAM-logo.828fa9056664fb2af29d.png",
+    "static/media/hero-ai.jpg": "/EduRAG-landing/static/media/hero-ai.4c0dc117ddfc0a85f865.jpg",
+    "static/media/ESIA-logo.png": "/EduRAG-landing/static/media/ESIA-logo.bcc8c5efc15875bef851.png",
+    "static/media/CUAED-logo.png": "/EduRAG-landing/static/media/CUAED-logo.1d6eecdb4603eea36a93.png",
+    "index.html": "/EduRAG-landing/index.html",
+    "main.bd4201e2.css.map": "/EduRAG-landing/static/css/main.bd4201e2.css.map",
+    "main.59cfa207.js.map": "/EduRAG-landing/static/js/main.59cfa207.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd4201e2.css",
+    "static/js/main.59cfa207.js"
+  ]
+}
