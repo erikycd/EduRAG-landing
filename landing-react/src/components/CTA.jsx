@@ -2,9 +2,9 @@ import React from 'react';
 
 function CTA() {
   return (
-    <section className="cta">
+    <section className="cta scroll-reveal">
       <h2>Comienza a trabajar con EduRAG</h2>
-      <a href="#" className="btn-secondary">Regístrate y comienza ahora</a>
+      <a href="#" className="btn-secondary gradient-primary btn-animated">Regístrate y comienza ahora</a>
 
       <div className="footer-info">
         <span>🔒 100% Seguro</span>

@@ -28,8 +28,8 @@ function Features() {
   }, []);
 
   return (
-    <section className="section">
-      <h2>Funcionalidades principales</h2>
+    <section className="section scroll-reveal">
+      <h2 className="scroll-reveal fade-in-up delay-1">Funcionalidades principales</h2>
 
       <div className="grid">
         <div className="card feature-card">

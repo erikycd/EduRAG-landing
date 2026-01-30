@@ -20,7 +20,7 @@ function TechFeatures() {
   ];
 
   return (
-    <section className="section light">
+    <section className="section light scroll-reveal">
       <h2>Características técnicas</h2>
 
       <div className="grid three">

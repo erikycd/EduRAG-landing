@@ -1,0 +1,130 @@
+# Actualizar cambios en tu sitio desplegado
+
+Cada vez que hagas modificaciones en tu código, sigue estos pasos:
+
+## Flujo de trabajo completo:
+
+### Paso 1: Haz tus cambios en el código
+
+Edita los archivos en src (componentes, estilos, etc.)
+
+### Paso 2: Prueba localmente
+
+```bash
+cd landing-react
+npm start
+```
+
+Verifica que todo funcione correctamente en `http://localhost:3000`
+
+### Paso 3: Despliega a GitHub Pages
+
+```bash
+npm run deploy
+```
+
+Este comando automáticamente:
+- ✅ Ejecuta `npm run build` (genera versión optimizada)
+- ✅ Sube los archivos a la rama `gh-pages`
+- ✅ Actualiza tu sitio web
+
+### Paso 4: Guarda cambios en tu rama main (Opcional pero recomendado)
+
+```bash
+cd ..
+git add .
+git commit -m "Descripción de tus cambios"
+git push origin main
+```
+
+O usa **GitHub Desktop**:
+1. Verás los cambios en la pestaña "Changes"
+2. Escribe un mensaje de commit
+3. Haz clic en "Commit to main"
+4. Haz clic en "Push origin"
+
+---
+
+## Resumen del flujo:
+
+```bash
+# 1. Edita archivos en landing-react/src/
+# 2. Prueba localmente
+npm start
+
+# 3. Despliega cuando estés satisfecho
+npm run deploy
+
+# 4. (Opcional) Guarda en main
+git add .
+git commit -m "Actualización de estilos"
+git push origin main
+```
+
+---
+
+## Tiempo de actualización:
+
+Después de `npm run deploy`, espera **1-2 minutos** para ver los cambios reflejados en:
+```
+https://erikycd.github.io/EduRAG-landing
+```
+
+---
+
+**Tip:** Si no ves los cambios inmediatamente, limpia el caché del navegador con `Ctrl + Shift + R` (Windows) o `Cmd + Shift + R` (Mac).
+
+---
+
+## 🎨 Mejoras visuales implementadas:
+
+### Animaciones disponibles:
+- **fadeInUp, fadeInLeft, fadeInRight**: Animaciones de entrada
+- **float-animation**: Efecto flotante continuo
+- **pulse-animation**: Efecto de pulso
+- **card-hover**: Efecto hover para tarjetas
+- **btn-animated**: Botones con efectos
+- **icon-bounce**: Iconos con rebote al hacer hover
+
+### Degradados modernos:
+- **gradient-primary**: Púrpura a violeta
+- **gradient-success**: Verde esmeralda
+- **gradient-info**: Azul cielo
+- **gradient-sunset**: Rosa a amarillo
+- **gradient-ocean**: Azul profundo a cyan
+
+### Efectos especiales:
+- **glass-effect**: Efecto glassmorphism
+- **text-gradient**: Texto con degradado
+- **shimmer**: Efecto de carga brillante
+- **scroll-reveal**: Revelar al hacer scroll
+
+### Cómo usar en tus componentes:
+
+```jsx
+// Ejemplo de uso en un componente:
+import '../styles/animations.css';
+import { initScrollAnimations } from '../utils/scrollAnimations';
+
+function MiComponente() {
+  useEffect(() => {
+    initScrollAnimations();
+  }, []);
+
+  return (
+    <div className="scroll-reveal fade-in-up">
+      <h1 className="text-gradient">Título con degradado</h1>
+      <button className="btn-animated gradient-primary">
+        Botón animado
+      </button>
+      <div className="card-hover glass-effect">
+        Tarjeta con efecto glass
+      </div>
+    </div>
+  );
+}
+```
+
+---
+
+¿Queda claro el flujo de trabajo?
