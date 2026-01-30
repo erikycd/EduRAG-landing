@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EduRAG-landing/static/css/main.87bb81e3.css",
-    "main.js": "/EduRAG-landing/static/js/main.24e01e20.js",
+    "main.js": "/EduRAG-landing/static/js/main.035e43c2.js",
     "static/media/alojamiento.jpg": "/EduRAG-landing/static/media/alojamiento.a7d9b9e0991fdefd17ba.jpg",
     "static/media/indexacion2.jpg": "/EduRAG-landing/static/media/indexacion2.9ef74f94177e7757cd28.jpg",
     "static/media/llm.jpg": "/EduRAG-landing/static/media/llm.65ec59f8381dd215a5aa.jpg",
@@ -11,10 +11,10 @@
     "static/media/CUAED-logo.png": "/EduRAG-landing/static/media/CUAED-logo.1d6eecdb4603eea36a93.png",
     "index.html": "/EduRAG-landing/index.html",
     "main.87bb81e3.css.map": "/EduRAG-landing/static/css/main.87bb81e3.css.map",
-    "main.24e01e20.js.map": "/EduRAG-landing/static/js/main.24e01e20.js.map"
+    "main.035e43c2.js.map": "/EduRAG-landing/static/js/main.035e43c2.js.map"
   },
   "entrypoints": [
     "static/css/main.87bb81e3.css",
-    "static/js/main.24e01e20.js"
+    "static/js/main.035e43c2.js"
   ]
 }
