@@ -127,4 +127,36 @@ function MiComponente() {
 
 ---
 
+## 📋 Estructura de la página de Equipo:
+
+### Archivos creados:
+- `src/data/teamMembers.js` - Datos del equipo
+- `src/components/Team/Team.jsx` - Componente principal
+- `src/components/Team/TeamCard.jsx` - Tarjeta individual
+- `src/components/Team/Team.css` - Estilos del equipo
+
+### Cómo añadir nuevos miembros:
+
+```javascript
+// Edita src/data/teamMembers.js
+export const teamMembers = [
+  // ...existing members...
+  {
+    id: 3,
+    name: "Tu Nombre",
+    profession: "Tu Profesión",
+    role: "Tu Rol en el Proyecto",
+    image: "/images/team/tunombre.jpg",
+    linkedin: "URL",
+    github: "URL"
+  }
+];
+```
+
+### Integración:
+- **Opción 1**: Como sección → Importar `<Team />` en App.jsx
+- **Opción 2**: Como página separada → Usar React Router
+
+---
+
 ¿Queda claro el flujo de trabajo?

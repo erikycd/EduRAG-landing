@@ -120,7 +120,7 @@
 }
 
 .gradient-ocean {
-  background: linear-gradient(135deg, #2e3192 0%, #1bffff 100%);
+  background: linear-gradient(135deg, #2e3192 0%, #18c7c7 100%);
 }
 
 /* Glassmorphism */
@@ -173,7 +173,7 @@
 
 /* Texto con degradado */
 .text-gradient {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #667eea 0%, #1f376e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

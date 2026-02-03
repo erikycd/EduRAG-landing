@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -11,15 +12,16 @@ function Hero() {
           <a href="https://cuaed.unam.mx" target="_blank" rel="noreferrer" className="icon-bounce">
             <img src={require('../assets/CUAED-logo.png')} alt="CUAED" style={{ width: '190px', height: '70px' }} />
           </a>
-          <a href="#" target="_blank" rel="noreferrer" className="icon-bounce">
+          <Link to="/equipo" className="icon-bounce">
             <img src={require('../assets/ESIA-logo.png')} alt="ESIA" style={{ width: '80px', height: '80px' }} />
-          </a>
+          </Link>
         </div>
 
-        <h1>EdRAG: Sistema de IA para análisis de contenido educativo y de investigación</h1>
+        <h1>EduAgentic: Sistema de IA para análisis de contenido educativo y de investigación</h1>
         <p>Mejora tus proyectos educativos y de investigación con este desarrollo local.</p>
 
         <a href="#" className="btn-primary gradient-primary btn-animated">Prueba la versión Beta</a>
+        <a href="#" className="btn-primary gradient-ocean btn-animated">Ver Demo</a>
       </div>
     </section>
   );
