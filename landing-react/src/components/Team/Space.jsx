@@ -12,22 +12,22 @@ const Space = () => {
       <div className="space-container">
         <div className="space-content scroll-reveal fade-in-up">
           <div className="space-text">
-            <h2 className="text-gradient">El cubo</h2>
-            <p className="space-subtitle">Espacio Sináptico de Inteligencia Artificial y Analítica del Aprendizaje</p>
+            <h2 className="text-gradient">El Aula del Futuro</h2>
+            <p className="space-subtitle">Un espacio de aprendizaje y colaboración</p>
             <p className="space-description">
-              Un ecosistema interdisciplinario donde la investigación científica y educativa se unen para innovar.
+              El proyecto EduAgentic proporciona un ecosistema interdisciplinario donde la investigación científica y educativa se unen para innovar.
             </p>
           </div>
           <div className="space-visual">
             <div className="space-logo-container icon-bounce">
-              <img src={require('../../assets/ESIA-logo.png')} alt="ESIA Logo" className="space-logo" />
+              <img src={require('../../assets/AF-logo.png')} alt="AF Logo" className="space-logo" />
             </div>
           </div>
         </div>
 
         <div className="space-image-container scroll-reveal fade-in-up">
           <img 
-            src={`${process.env.PUBLIC_URL}/images/space.jpg`} 
+            src={`${process.env.PUBLIC_URL}/images/Aula_AF.jpg`} 
             alt="El espacio"
             className="space-image"
           />

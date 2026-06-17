@@ -31,7 +31,7 @@ export const teamMembers = [
     name: "Héctor GG",
     profession: "Desarrollador Full-Stack & Ciberseguridad",
     role: "Ingeniero en Computación",
-    image: `${process.env.PUBLIC_URL}/images/team/etc.jpg`,
+    image: `${process.env.PUBLIC_URL}/images/team/hgg.png`,
     linkedin: "https://linkedin.com/in/carlos-perez",
     github: "https://github.com/carlosperez"
   },
@@ -50,6 +50,15 @@ export const teamMembers = [
     profession: "Diseñadora de Instrumentos de Evaluación",
     role: "Pedagoga",
     image: `${process.env.PUBLIC_URL}/images/team/etc.jpg`,
+    linkedin: "https://linkedin.com/in/carlos-perez",
+    github: "https://github.com/carlosperez"
+  },
+  {
+    id: 7,
+    name: "Ken Bryan Guadarrama H.",
+    profession: "Gestor de Proyecto & Desarrollador IA",
+    role: "Ingeniero en Computación",
+    image: `${process.env.PUBLIC_URL}/images/team/kgh2.png`,
     linkedin: "https://linkedin.com/in/carlos-perez",
     github: "https://github.com/carlosperez"
   },

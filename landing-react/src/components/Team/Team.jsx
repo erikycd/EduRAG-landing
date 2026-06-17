@@ -14,7 +14,7 @@ const Team = () => {
       <div className="container">
         <div className="section-header">
           <h2 className="text-gradient ">Nuestro Equipo</h2>
-          <p>Conoce a las personas detrás del proyecto EduRAG</p>
+          <p>Conoce a las personas detrás del proyecto EduAgentic</p>
         </div>
         <div className="team-grid">
           {teamMembers.map((member) => (
