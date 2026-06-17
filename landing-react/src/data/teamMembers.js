@@ -12,8 +12,8 @@ export const teamMembers = [
     id: 2,
     name: "Marian Partida",
     profession: "Desarrolladora IA",
-    role: "Matemática",
-    image: `${process.env.PUBLIC_URL}/images/team/etc.jpg`,
+    role: "Matemática Aplicada",
+    image: `${process.env.PUBLIC_URL}/images/team/mp.jpeg`,
     linkedin: "https://linkedin.com/in/carlos-perez",
     github: "https://github.com/carlosperez"
   },

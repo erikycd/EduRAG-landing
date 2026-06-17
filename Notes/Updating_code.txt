@@ -30,6 +30,10 @@ Este comando automáticamente:
 
 ### Paso 4: Guarda cambios en tu rama main (Opcional pero recomendado)
 
+1. Transferir cambios a Staged Changes
+2. Asigna una etiqueda en el cuadro de texto i.e. v.0.2.0
+3. Ejecuta Commit and Push a main
+
 ```bash
 cd ..
 git add .
