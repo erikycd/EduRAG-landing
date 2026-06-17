@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EduRAG-landing/static/css/main.c3265989.css",
-    "main.js": "/EduRAG-landing/static/js/main.709ed58b.js",
+    "main.css": "/EduRAG-landing/static/css/main.46575c6a.css",
+    "main.js": "/EduRAG-landing/static/js/main.b028fd4e.js",
     "static/media/alojamiento.jpg": "/EduRAG-landing/static/media/alojamiento.a7d9b9e0991fdefd17ba.jpg",
     "static/media/indexacion2.jpg": "/EduRAG-landing/static/media/indexacion2.9ef74f94177e7757cd28.jpg",
     "static/media/llm.jpg": "/EduRAG-landing/static/media/llm.65ec59f8381dd215a5aa.jpg",
@@ -12,11 +12,11 @@
     "static/media/CUAED-logo.png": "/EduRAG-landing/static/media/CUAED-logo.1d6eecdb4603eea36a93.png",
     "static/media/ICAT-logo.png": "/EduRAG-landing/static/media/ICAT-logo.f5812853cb6db92442e0.png",
     "index.html": "/EduRAG-landing/index.html",
-    "main.c3265989.css.map": "/EduRAG-landing/static/css/main.c3265989.css.map",
-    "main.709ed58b.js.map": "/EduRAG-landing/static/js/main.709ed58b.js.map"
+    "main.46575c6a.css.map": "/EduRAG-landing/static/css/main.46575c6a.css.map",
+    "main.b028fd4e.js.map": "/EduRAG-landing/static/js/main.b028fd4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3265989.css",
-    "static/js/main.709ed58b.js"
+    "static/css/main.46575c6a.css",
+    "static/js/main.b028fd4e.js"
   ]
 }
