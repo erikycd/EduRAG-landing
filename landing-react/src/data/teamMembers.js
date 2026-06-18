@@ -40,7 +40,7 @@ export const teamMembers = [
     name: "Joel López",
     profession: "Desarrollador Back-End & Software",
     role: "Ingeniero en Computación",
-    image: `${process.env.PUBLIC_URL}/images/team/etc.jpg`,
+    image: `${process.env.PUBLIC_URL}/images/team/jl.png`,
     linkedin: "https://linkedin.com/in/carlos-perez",
     github: "https://github.com/carlosperez"
   },

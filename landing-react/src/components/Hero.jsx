@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Hero() {
   const [isDemoOpen, setIsDemoOpen] = useState(false);
-  const rawVideoUrl = 'https://youtu.be/0S-vIQOQfC8?si=9EaGihU7AoxCkXBn';
+  const rawVideoUrl = 'https://www.youtube.com/watch?v=zfmfwVSwdws';
 
   const getEmbeddableVideoUrl = (url) => {
     try {
